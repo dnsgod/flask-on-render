@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "훈스포 Flask API 성공!"
+    return "Flask API 성공!"
 
 if __name__ == '__main__':
     app.run()
